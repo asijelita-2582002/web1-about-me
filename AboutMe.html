@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Me</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>About Me :)</h1>
+        <p>Welcome to my personal student profile page :)</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#profile">Profile</a> |
+        <a href="#hobbies">Hobbies</a> |
+        <a href="#academic">Academic Record</a> |
+        <a href="#contact">Contact Me</a> |
+
+    </nav>
+    <hr>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- PROFILE -->
+        <section id="profile">
+            <h2>Student Profile</h2>
+            <img
+                src="WhatsApp Image 2026-04-20 at 20.27.54.jpeg."
+                alt="Foto profil Asi Jelita Tamba"
+                width="400"
+                height="400"
+            >
+            <p>
+                Hello, nama saya <strong>Asi Jelita Tamba</strong>.
+                Saya kuliah di UNAI dan memilih jurusan Sistem Informasi.
+                Saya memilih jurusan ini karena ingin berkembang di dunia IT
+                dan menambah wawasan. Saya berharap dapat menjadi seorang
+                anak IT yang berguna di masa depan.
+            </p>
+
+            <h3>Personal Information</h3>
+            <p>
+                <strong>Name:</strong> Asi Jelita Tamba<br>
+                <strong>Student ID (NIM):</strong> 2582002<br>
+                <strong>Study Program:</strong> Sistem Informasi<br>
+                <strong>Email:</strong>
+                <a href="mailto:2582002@unai.edu">2582002@unai.edu</a>
+            </p>
+        </section>
+
+        <!-- HOBBIES -->
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+
+            <h3>My Favorite Hobbies</h3>
+            <ol>
+                <li>Membaca</li>
+                <li>Memasak</li>
+                <li>Berenang</li>
+            </ol>
+
+            <h3>Other Activities I Enjoy</h3>
+            <ul>
+                <li>Menyanyi</li>
+                <li>Menonton Ghibli</li>
+            </ul>
+        </section>
+
+        <!-- ACADEMIC RECORD -->
+        <section id="academic">
+            <h2>Academic Record</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Semester</th>
+                        <th>Academic Year</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Odd Semester</td>
+                        <td>2025/2026</td>
+                        <td>3.40</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Even Semester</td>
+                        <td>2025/2026</td>
+                        <td>3.57</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- CONTACT ME -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+
+                <label for="fullName">Full Name:</label><br>
+                <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    minlength="3"
+                    maxlength="50"
+                    required
+                ><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                ><br><br>
+
+                <!-- Field tambahan untuk Mini Challenge -->
+                <label for="phone">Phone Number (optional):</label><br>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                ><br><br>
+
+                <label for="category">Message Category:</label><br>
+                <select id="category" name="category">
+                    <option value="">-- Select Category --</option>
+                    <option value="academic">Academic</option>
+                    <option value="project">Project Collaboration</option>
+                    <option value="general">General</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    minlength="10"
+                    maxlength="500"
+                    required
+                ></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Asi Jelita Tamba | Web Programming I</p>
+        <p>
+            Faculty of Information Technology<br>
+            Universitas Advent Indonesia
+        </p>
+    </footer>
+
+</body>
+</html>
