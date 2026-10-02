@@ -211,9 +211,6 @@ button:hover {
 }
 /* Terakhir Footer */
 footer {
-    margin-top: 0;
-}
-footer {
     margin-top: 24px;
     padding: 24px 20px;
     background-color: #17694a;
